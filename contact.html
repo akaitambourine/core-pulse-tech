@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT | CORE PULSE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#050505] text-white antialiased">
+    <nav class="fixed top-0 left-0 w-full z-50 mix-blend-difference px-6 py-8 md:px-12 flex justify-between items-end">
+        <a href="index.html" class="text-2xl font-black tracking-tighter italic">CORE PULSE</a>
+        <div class="flex gap-8 text-xs font-bold uppercase tracking-[0.2em]">
+            <a href="service.html" class="hover:text-cyan-400 transition-colors">Service</a>
+            <a href="company.html" class="hover:text-cyan-400 transition-colors">Company</a>
+            <a href="contact.html" class="text-cyan-400">Contact</a>
+        </div>
+    </nav>
+
+    <main class="pt-40 px-6 md:px-12 pb-32">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 max-w-7xl mx-auto">
+            <div>
+                <h1 class="text-8xl font-black italic tracking-tighter mb-12 uppercase leading-none">Connect<br>to the<br><span class="text-cyan-500">Core.</span></h1>
+                <p class="text-slate-400 text-xl mb-12 font-light">
+                    新規プロジェクトのご相談、アーティストブッキング、その他お問い合わせは下記フォームよりお送りください。池田 翔平率いるチームが、あなたのビジョンを音と光に変換します。
+                </p>
+                <div class="space-y-4">
+                    <p class="text-sm font-bold tracking-widest text-slate-500 uppercase">Information</p>
+                    <p class="text-lg">東京都江戸川区江戸川1-8-27</p>
+                    <p class="text-lg">REPRESENTATIVE: 池田 翔平</p>
+                </div>
+            </div>
+
+            <form class="space-y-8 bg-white/5 p-12 backdrop-blur-xl border border-white/10">
+                <div class="space-y-2">
+                    <label class="text-[10px] uppercase font-black tracking-widest text-cyan-400">Name</label>
+                    <input type="text" class="w-full bg-transparent border-b border-white/20 py-4 focus:outline-none focus:border-cyan-400 transition-colors placeholder:text-white/10" placeholder="NAME / ORGANIZATION">
+                </div>
+                <div class="space-y-2">
+                    <label class="text-[10px] uppercase font-black tracking-widest text-cyan-400">Email</label>
+                    <input type="email" class="w-full bg-transparent border-b border-white/20 py-4 focus:outline-none focus:border-cyan-400 transition-colors placeholder:text-white/10" placeholder="EMAIL ADDRESS">
+                </div>
+                <div class="space-y-2">
+                    <label class="text-[10px] uppercase font-black tracking-widest text-cyan-400">Message</label>
+                    <textarea rows="4" class="w-full bg-transparent border-b border-white/20 py-4 focus:outline-none focus:border-cyan-400 transition-colors placeholder:text-white/10" placeholder="DESCRIBE YOUR VISION"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-cyan-500 text-black font-black uppercase tracking-[0.3em] py-6 hover:bg-white transition-colors duration-500">
+                    Submit Pulse
+                </button>
+            </form>
+        </div>
+    </main>
+    <script>lucide.createIcons();</script>
+</body>
+</html>
